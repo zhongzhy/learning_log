@@ -25,7 +25,7 @@ SECRET_KEY = '7+bc)1=f!9yaz6nhadob#4l5rm2x#-o@qe0u*&$-$lh$pq@p$j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -128,3 +128,4 @@ STATIC_URL = '/static/'
 LOGIN_URL = '/users/login/'
 
 BOOTSTRAP3 = { 'include_jquery':True, }
+
